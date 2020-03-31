@@ -1,15 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>helloworld</name>
+<widget id="com.accsmartcontrol.mltech" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Acc SmartControl</name>
     <description>
-        A blank PhoneGap app.
+        Phonegap App for ACC spa/sauna control systems.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="lucianomanto@gmail.com" href="http://phonegap.com">
+        MLTech
     </author>
     <content src="index.html" />
     <access origin="*" />
     <engine name="android" spec="~7.1.4" />
     <engine name="ios" spec="~4.5.5" />
     <engine name="browser" spec="~5.0.4" />
+    <plugin name="cordova-plugin-file" spec="6.0.2" />
 </widget>
